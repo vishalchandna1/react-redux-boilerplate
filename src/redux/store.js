@@ -3,7 +3,6 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { routerMiddleware } from 'react-router-redux';
 import createHistory from 'history/createBrowserHistory';
 import reducers from './reducers';
-import actions from './actions';
 
 export const history = createHistory();
 
