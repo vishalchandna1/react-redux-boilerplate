@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import logo from '../../../logo.svg';
 import Container from '../../unit/Container/Container';
+import Button from '../../unit/Button/Button';
 
 class Home extends Component {
   render() {
-    const { name } = this.props;
     return (
       <Container className="home-container">
         <header className="App-header">
@@ -26,14 +25,11 @@ and save to reload.
           >
             Learn React
           </h4>
+          <Button type="button">This is our Button(a unit component)</Button>
         </header>
       </Container>
     );
   }
-}
-
-Home.propTypes = {
-  name: PropTypes.string,
 }
 
 export default Home;
