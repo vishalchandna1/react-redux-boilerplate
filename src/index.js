@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 
 import './index.css';
 import store, { history } from './redux/store';
-import App from './App';
+import App from './components/wrapper/App/App';
 import * as serviceWorker from './serviceWorker';
 
 
